@@ -24,7 +24,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint \"{src,apps,libs,test}/**/*.tsx\" --fix",
     "prepare": "husky",
-    "lint-staged": "eslint \"{src,apps,libs,test}/**/*.tsx\" --fix"
+    "lint-staged": "lint-staged",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
   },
   "eslintConfig": {
     "extends": [
@@ -49,7 +50,7 @@
     "lint-staged": "^15.5.0"
   },
   "lint-staged": {
-    "*.tsx": [
+    "*.ts": [
       "npm run lint",
       "npm run format",
       "git add ."
