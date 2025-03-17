@@ -1,0 +1,28 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.tslint": "always",
+    //     "source.fixAll.eslint": "always"
+    // },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "prettier.singleQuote": true, // Optional: Use single quotes
+    "prettier.trailingComma": "es5", // Optional: Add trailing commas
+    "prettier.printWidth": 80, // Optional: Set line length
+    "prettier.tabWidth": 2 // Optional: Set tab width
+}
