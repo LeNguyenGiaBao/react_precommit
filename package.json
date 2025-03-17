@@ -24,7 +24,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint \"{src,apps,libs,test}/**/*.tsx\" --fix",
     "prepare": "husky",
-    "lint-staged": "lint-staged"
+    "lint-staged": "eslint \"{src,apps,libs,test}/**/*.tsx\" --fix"
   },
   "eslintConfig": {
     "extends": [

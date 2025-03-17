@@ -5,6 +5,7 @@ import './App.css';
 const a = 1;
 const b = 2;
 const c = 2;
+const d = 2;
 
 function App() {
   return (
